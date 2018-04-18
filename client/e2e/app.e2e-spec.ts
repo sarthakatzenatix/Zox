@@ -1,10 +1,10 @@
-import { ZoxClientPage } from './app.po';
+import { ClientPage } from './app.po';
 
-describe('zox-client App', function() {
-  let page: ZoxClientPage;
+describe('client App', function() {
+  let page: ClientPage;
 
   beforeEach(() => {
-    page = new ZoxClientPage();
+    page = new ClientPage();
   });
 
   it('should display message saying app works', () => {
